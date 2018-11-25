@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "babel-jest": "^23.6.0",
-    "babel-plugin-transform-builtin-extend": "^1.1.2",
     "babel-preset-env": "^1.7.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -18,11 +17,6 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0"
-  },
-  "jest": {
-    "modulePathIgnorePatterns": [
-      "package.json"
-    ]
   },
   "babel": {
     "presets": [
@@ -35,19 +29,6 @@
             }
           ]
         }
-      ]
-    ],
-    "plugins": [
-      [
-        "babel-plugin-transform-builtin-extend",
-        {
-          "globals": [
-            "Error"
-          ]
-        }
-      ],
-      [
-        "transform-regenerator"
       ]
     ]
   },
