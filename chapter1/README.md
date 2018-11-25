@@ -6,3 +6,9 @@ Requirement: Add runable samples based on steps below:
 - Make a little change.
 - Run all tests and see them all succeed.
 - Refactor to remove duplication.
+
+# Run test
+
+``` shell
+$ npm run test chapter1
+```

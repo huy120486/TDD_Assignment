@@ -52,10 +52,9 @@
     ]
   },
   "scripts": {
-    "test": "jest --no-cache ./*",
-    "watch": "jest --no-cache --watch ./*",
-    "lint": "eslint .",
-    "lint-test": "eslint . && jest --no-cache ./* "
+    "test": "jest --no-cache",
+    "watch": "jest --no-cache --watch",
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "parserOptions": {
