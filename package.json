@@ -52,7 +52,8 @@
       "import/extensions": "off",
       "import/no-unresolved": "off",
       "import/prefer-default-export": "off",
-      "no-underscore-dangle": 0
+      "no-underscore-dangle": "off",
+      "no-use-before-define": ["error", { "classes": false }]
     }
   },
   "licenses": [
