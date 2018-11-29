@@ -1,4 +1,4 @@
-import Dollar from '../dollar';
+import { Dollar } from '../app';
 
 describe('Dollar', () => {
   describe('Multiplication', () => {
