@@ -1,4 +1,4 @@
-class Dollar {
+export class Dollar {
   constructor(amount) {
     this._amount = amount;
   }
@@ -11,5 +11,3 @@ class Dollar {
     return this._amount === dollar._amount;
   }
 }
-
-export default Dollar;
