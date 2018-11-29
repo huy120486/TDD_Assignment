@@ -7,7 +7,7 @@ class Dollar {
     return new Dollar(this._amount * multiplier);
   }
 
-  equal(dollar) {
+  equals(dollar) {
     return this._amount === dollar._amount;
   }
 }

@@ -16,11 +16,11 @@ describe('Dollar', () => {
 
   describe('Equality', () => {
     it('returns true when comparing the same amounts', () => {
-      expect(new Dollar(5).equal(new Dollar(5))).toBe(true);
+      expect(new Dollar(5).equals(new Dollar(5))).toBe(true);
     });
 
     it('returns false when comparing the different amounts', () => {
-      expect(new Dollar(5).equal(new Dollar(6))).toBe(false);
+      expect(new Dollar(5).equals(new Dollar(6))).toBe(false);
     });
   });
 });
