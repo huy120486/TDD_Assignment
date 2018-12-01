@@ -1,17 +1,15 @@
 import { Franc, Money } from '../app';
 
 describe('Multiplication', () => {
-  describe('Dollar', () => {
-    const five = Money.dollar(5);
+  const five = Money.dollar(5);
 
-    it('returns correct result when multiplying to 2', () => {
-      expect(Money.dollar(10)).toEqual(five.times(2));
-    });
+  it('returns correct result when multiplying to 2', () => {
+    expect(Money.dollar(10)).toEqual(five.times(2));
+  });
 
 
-    it('returns correct result when multiplying to 3', () => {
-      expect(Money.dollar(15)).toEqual(five.times(3));
-    });
+  it('returns correct result when multiplying to 3', () => {
+    expect(Money.dollar(15)).toEqual(five.times(3));
   });
 });
 
