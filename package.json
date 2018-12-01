@@ -53,7 +53,13 @@
       "import/no-unresolved": "off",
       "import/prefer-default-export": "off",
       "no-underscore-dangle": "off",
-      "no-use-before-define": ["error", { "classes": false }]
+      "no-use-before-define": [
+        "error",
+        {
+          "classes": false,
+          "functions": false
+        }
+      ]
     }
   },
   "licenses": [
